@@ -17,7 +17,7 @@ st.title("Car Price Prediction Model")
 
 # Input URLs for Raw Data and Preprocessed Data
 raw_data_url = st.text_input("https://raw.githubusercontent.com/Nandagopan808/App/refs/heads/main/raw_data.csv")
-preprocessed_data_url = st.text_input("Enter the URL for Preprocessed Data (CSV):")
+preprocessed_data_url = st.text_input("https://raw.githubusercontent.com/Nandagopan808/App/refs/heads/main/preprocessed_data.csv")
 
 # Load Raw Data
 if raw_data_url:
